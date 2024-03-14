@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoBeDone</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Title -->
+        <h1>ToDoBeDone</h1>
+    </header>
+
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Container for adding new tasks -->
+        <div id="add-task-container">
+            <!-- Text input for adding new tasks -->
+            <input type="text" id="add-task" placeholder="Enter task name">
+
+            <!-- Button to add new task -->
+            <button class="btn-primary" id="add-task-btn" onclick="addTask()">Add</button>
+        </div>
+
+        <!-- Container for the list of tasks -->
+        <div class="listcontainer" id="listcontainer">
+            <!-- Sample task items -->
+            <div class="list-item">
+                sample task 1
+                <button class="delete-btn">Delete</button>
+            </div>
+            <div class="list-item">
+                sample task 2
+                <button class="delete-btn">Delete</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script section -->
+    <script src="js/index.js"></script>
+</body>
+</html>

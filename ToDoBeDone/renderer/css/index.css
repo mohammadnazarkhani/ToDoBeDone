@@ -1,0 +1,88 @@
+/* Apply Calibri font to all elements */
+* {
+    font-family: 'calibri';
+}
+
+/* Style the body with lightseagreen background */
+body {
+    background-color: lightseagreen;
+}
+
+/* Center align the header text */
+header {
+    text-align: center;
+}
+
+/* Style the container div */
+div.container {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex; /* Use flexbox for layout */
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Semi-transparent white border */
+    justify-content: center; /* Center align flex items horizontally */
+    flex-direction: column; /* Arrange flex items vertically */
+}
+
+/* Style the add task container */
+#add-task-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: nowrap; /* Prevent wrapping of flex items */
+}
+
+/* Style the add task input */
+input#add-task {
+    flex-grow: 1; /* Take up all available space */
+    margin-right: 10px; /* Add spacing between input and button */
+    border-radius: 5px; /* Rounded corners */
+    border-style: none; /* Remove default border */
+    height: 30px; /* Set input height */
+}
+
+/* Style the list item */
+div.list-item {
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent black background */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 5px; /* Add margin */
+    padding: 10px; /* Add padding */
+    display: flex; /* Use flexbox for layout */
+}
+
+/* Hover effect for list item */
+.list-item:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Darken background on hover */
+}
+
+/* Style the list container */
+div.listcontainer {
+    margin-top: 20px; /* Add top margin */
+    max-height: 60vh; /* Set maximum height with vertical scroll if content exceeds */
+    overflow-y: auto; /* Enable vertical scroll if content exceeds container height */
+}
+
+/* Style the add task button */
+#add-task-btn {
+    background-color: dodgerblue; /* Blue background color */
+    border-style: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect for add task button */
+#add-task-btn:hover {
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background on hover */
+}
+
+/* Style the delete button */
+.delete-btn {
+    background-color: brown; /* Brown background color */
+    border-style: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 0; /* Reset margin */
+    margin-left: auto; /* Align to the right */
+}
+
+/* Hover effect for delete button */
+.delete-btn:hover {
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background on hover */
+}
